@@ -1,3 +1,4 @@
+@import url(variables.css);
 body {
     font-family: Tahoma, sans-serif;
     margin: 0;
@@ -6,7 +7,7 @@ body {
   }
   
   header {
-    background-color: #F1CD9D;
+    background-color: var(--color-headerfooter);
     text-align: center;
     padding: 1rem;
     
@@ -27,7 +28,7 @@ body {
   } 
   
   nav {
-    background-color: #cfc8be;
+    background-color: var(--color-navmaincolumn);
     color: #000;
     text-align: center;
     padding: 2%;
@@ -49,8 +50,7 @@ body {
   
   main {
     padding: 2rem;
-    background-color: #cfc8be;
-   
+    background-color: var(--color-navmaincolumn);
   }
   
   section {
@@ -58,7 +58,7 @@ body {
   }
   
   footer {
-    background-color: #F1CD9D;
+    background-color: var(--color-headerfooter);
     text-align: center;
     padding: 1rem;
    
@@ -72,9 +72,9 @@ body {
   .column
   {
     width: 49%;
-    background: #cfc8be;
+    background-color: var(--color-navmaincolumn);
     margin: 1px;
-    color:#030303 ;
+    color:var(--color-column) ;
     font-style: italic ;
 
     float: left;
@@ -99,5 +99,12 @@ body {
 
  .imgs
  {
+    width: 300px;
+ }
+
+
+ .imgs1
+ {
+    height: 200px;
     width: 300px;
  }
